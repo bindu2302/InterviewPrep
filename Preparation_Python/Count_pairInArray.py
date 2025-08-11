@@ -12,4 +12,5 @@ def Count_pairInArray(arr,k):
     return count
 arr = list(map(int,input().strip().split()))
 k = int(input())
+
 print("Count is:" , Count_pairInArray(arr,k))
