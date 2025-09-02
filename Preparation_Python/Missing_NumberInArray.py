@@ -6,4 +6,5 @@ arr = list(map(int,input().split()))
 print("Missing num: ", missing_num(arr))
 
 # 3 0 1
+
 # Missing num:  2
