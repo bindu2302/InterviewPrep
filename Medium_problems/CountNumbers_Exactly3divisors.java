@@ -44,3 +44,4 @@ public class CountNumbers_Exactly3divisors {
 		return total;
 	}
 }
+
