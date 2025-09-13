@@ -4,7 +4,7 @@
 
 //Input: n = 16
 //Output: 2
-//Explanation: Only 4 and 9 have exactly three divisors.
+//Explanation: Only 4 and 9 have exactly three divisors
 
 //Input: n = 100
 //Output: 4
@@ -44,4 +44,5 @@ public class CountNumbers_Exactly3divisors {
 		return total;
 	}
 }
+
 
