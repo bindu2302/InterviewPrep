@@ -19,6 +19,18 @@ public class MajorityElement {
 			}
 			count += (num==candidate) ? 1 : -1;
 		}
-		return candidate;
+
+	// Verify if candidate is actually majority
+		int freq = 0;
+		for(int num : nums) {
+			if(candidate == num) {
+				freq++;
+			}
+		}
+		
+		if(freq > nums.length/2) {
+			return candidate;
+		}
+		return Integer.MIN_VALUE;
 	}
 }
